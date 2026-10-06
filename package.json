@@ -1,0 +1,52 @@
+{
+  "name": "@mrscraper/opencode",
+  "version": "0.1.0",
+  "description": "MrScraper for OpenCode: the hosted MrScraper MCP server plus fetch-first skills for web scraping, structured data extraction, and Google search.",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "skills",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "mrscraper",
+    "web-scraping",
+    "data-extraction",
+    "scraping",
+    "google-search",
+    "serp",
+    "mcp",
+    "research"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "MrScraper",
+    "email": "support@mrscraper.com",
+    "url": "https://mrscraper.com"
+  },
+  "homepage": "https://github.com/mrscraper-com/mrscraper-opencode-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrscraper-com/mrscraper-opencode-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrscraper-com/mrscraper-opencode-plugin/issues"
+  },
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.18.34",
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
