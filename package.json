@@ -1,6 +1,6 @@
 {
   "name": "@mrscraper/opencode",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MrScraper for OpenCode: the hosted MrScraper MCP server plus fetch-first skills for web scraping, structured data extraction, and Google search.",
   "type": "module",
   "main": "index.ts",
@@ -42,7 +42,8 @@
     "check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@opencode-ai/plugin": "1.18.34",
+    "@opencode-ai/plugin": "1.19.0",
+    "@opencode/plugin": "2.0.26",
     "@types/node": "^22.20.5",
     "typescript": "^5.9.3"
   },
