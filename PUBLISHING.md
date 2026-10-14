@@ -27,7 +27,7 @@ Use this checklist for every public release of `@mrscraper/opencode`.
   ```
 
   The package must contain `CHANGELOG.md`, `LICENSE`, `README.md`,
-  `index.ts`, `package.json`, and the four `skills/*/SKILL.md` files.
+  `index.ts`, `package.json`, and the three `skills/*/SKILL.md` files.
 
 - [ ] Test the packed package in clean profiles (separate `HOME` and `XDG_*`
       directories) of OpenCode 2 and of the oldest supported OpenCode 1
@@ -40,11 +40,11 @@ Use this checklist for every public release of `@mrscraper/opencode`.
     `opencode mcp list` then shows `connected`;
   - the skills list (`opencode api skill.list` in OpenCode 2,
     `opencode debug skill` in OpenCode 1) includes `mrscraper`,
-    `mrscraper-fetch`, `mrscraper-scrape`, and `mrscraper-serp`;
+    `mrscraper-fetch`, and `mrscraper-serp`;
   - with the README's API-key configuration, `opencode mcp list` shows
     `connected`, which also proves that a user-defined server is kept;
   - the prompt `Fetch https://www.scrapethissite.com/pages/simple/ and summarize the page.`
-    calls the `fetch` tool and summarizes the page.
+    calls the `scraperAPI` tool and summarizes the page.
 
 ## Publish
 
