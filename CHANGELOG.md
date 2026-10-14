@@ -3,6 +3,15 @@
 All notable changes to the MrScraper OpenCode plugin are documented here. The
 project follows [Semantic Versioning](https://semver.org/).
 
+## 0.3.0 - 2026-10-14
+
+- Updated the skills for the hosted MCP server's new tools: `scraperAPI`
+  (pages as HTML, Markdown, or screenshots), `webSearch` (Google), and `status`
+  (account usage). The `fetch`, `scrape`, `serp`, `rerun`, `results`, and
+  `result` tools no longer exist.
+- Removed the `mrscraper-scrape` skill. Skills are identical to the MrScraper
+  Claude plugin 0.2.0.
+
 ## 0.2.0 - 2026-10-12
 
 - Added OpenCode 2 support. OpenCode 2 does not run OpenCode 1 plugins; the
