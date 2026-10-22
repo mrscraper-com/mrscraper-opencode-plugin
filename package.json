@@ -1,6 +1,6 @@
 {
   "name": "@mrscraper/opencode",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "MrScraper for OpenCode: the hosted MrScraper MCP server plus fetch-first skills for web scraping, structured data extraction, and Google search.",
   "type": "module",
   "main": "index.ts",
