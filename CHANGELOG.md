@@ -3,6 +3,13 @@
 All notable changes to the MrScraper OpenCode plugin are documented here. The
 project follows [Semantic Versioning](https://semver.org/).
 
+## 0.3.2 - 2026-10-29
+
+- Reworded search as web search in the package
+  description, keywords, README, and skills.
+  The `webSearch` tool is unchanged. The skills now differ from the MrScraper
+  Claude plugin 0.2.2 only in this wording.
+
 ## 0.3.1 - 2026-10-22
 
 - Updated the `mrscraper` skill for the hosted server's three scopes:

@@ -1,7 +1,7 @@
 {
   "name": "@mrscraper/opencode",
-  "version": "0.3.1",
-  "description": "MrScraper for OpenCode: the hosted MrScraper MCP server plus fetch-first skills for web scraping, structured data extraction, and Google search.",
+  "version": "0.3.2",
+  "description": "MrScraper for OpenCode: the hosted MrScraper MCP server plus fetch-first skills for web scraping, structured data extraction, and web search.",
   "type": "module",
   "main": "index.ts",
   "exports": {
@@ -19,7 +19,7 @@
     "web-scraping",
     "data-extraction",
     "scraping",
-    "google-search",
+    "web-search",
     "serp",
     "mcp",
     "research"
