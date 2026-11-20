@@ -43,8 +43,8 @@ Use this checklist for every public release of `@mrscraper/opencode`.
     `mrscraper-fetch`, and `mrscraper-serp`;
   - with the README's API-key configuration, `opencode mcp list` shows
     `connected`, which also proves that a user-defined server is kept;
-  - the prompt `Fetch https://www.scrapethissite.com/pages/simple/ and summarize the page.`
-    calls the `scraperAPI` tool and summarizes the page.
+  - the prompt `Fetch https://www.scrapethissite.com and summarize the page.`
+    calls the `scrapeMarkdown` or `scrapeHtml` tool and summarizes the page.
 
 ## Publish
 
