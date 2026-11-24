@@ -3,6 +3,33 @@
 All notable changes to the MrScraper OpenCode plugin are documented here. The
 project follows [Semantic Versioning](https://semver.org/).
 
+## 0.6.0 - 2026-11-24
+
+- Updated the skills for MrScraper MCP server 0.6.0, whose tools take exactly
+  the inputs on MrScraper's API documentation pages. The `mrscraper-fetch`
+  skill lists each page tool's inputs with the documented descriptions. An
+  input left out is not sent, so MrScraper's own default applies; left out,
+  `browserRendering` lets MrScraper switch to a browser when a request is
+  blocked. The `mrscraper-serp` skill says the same for `country` and
+  `numResults`.
+- New inputs: `maxAge` on the four page tools reuses a cached result (0, a
+  fresh scrape, is sent when it is left out); `screenshot` on `scrapeHtml`
+  adds a screenshot; `getScreenshot` also takes a viewport size such as
+  `1280x800`; and `scrapeJson` takes `waitForSelector`, `warmStart`, and
+  `blockResources` and returns the page HTML unless `html` is false. `timeout`
+  goes up to 330 seconds.
+- `scrapeMarkdown` returns only Markdown and `getScreenshot` only the
+  screenshot: their `html` and `markdown` inputs are gone, and
+  `getScreenshot` no longer takes `blockResources`. Every other input that
+  the API documentation doesn't list is gone too. `saveResult` is no longer
+  an input: the four page tools always save their result to the MrScraper
+  dashboard.
+- The retry guidance uses `browserRendering`, `waitForSelector`, `timeout`,
+  `warmStart`, `geoCode`, `maxRetries`, and `maxAge`.
+- The README shows the MCP 0.6.0 tool descriptions.
+- Skills are identical to the MrScraper Claude 0.5.0, Cursor 0.6.0, Grok
+  0.5.0, and Antigravity 0.5.0 plugins.
+
 ## 0.5.0 - 2026-11-20
 
 - Updated the skills, README, and publishing checklist for MrScraper MCP
